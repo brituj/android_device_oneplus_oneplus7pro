@@ -44,5 +44,7 @@ endif
 PRODUCT_AAPT_CONFIG := normal
 PRODUCT_AAPT_PREF_CONFIG := xxhdpi
 
+TARGET_DISABLES_GAPPS := true
+
 # Inherit from sm8150-common
 $(call inherit-product, device/oneplus/sm8150-common/sm8150.mk)
